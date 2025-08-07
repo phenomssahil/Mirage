@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "destination": ""
+            "destination": "https://mirage-n2v5.vercel.app/"
         },
         {
             "source": "/(.*)",
