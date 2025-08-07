@@ -20,8 +20,8 @@ const NavBar = () => {
                         <div className='relative group'>
                             <img src={assets.profile_icon} className='w-10 rounded-full drop-shadow' />
                             <div className='absolute hidden group-hover:block top-0 right-0 z-10 text-black rounded pt-12'>
-                                <ul className='bg-white flex items-center justify-center list-none m-0 p-2 rounded-md border-0 text-sm'>
-                                    <li className='flex items-center justify-center cursor-pointer py-1 px-2 pr-10'
+                                <ul className='bg-white flex items-center justify-center m-0 p-2 rounded-md border-0 text-sm'>
+                                    <li className='flex items-center justify-center cursor-pointer'
                                         onClick={logOut}>Logout</li>
                                 </ul>
                             </div>
