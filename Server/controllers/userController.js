@@ -88,7 +88,7 @@ const paymentRazorpay = async (req, res) => {
                 break;
 
             case 'Business':
-                plan = 'Buisness'
+                plan = 'Business'
                 credits = 1000
                 amount = 250
                 break;
