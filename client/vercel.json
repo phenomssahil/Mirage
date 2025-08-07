@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "destination": "https://miragebackend-eicsbecr1-sahils-projects-d267e20c.vercel.app/"
+            "destination": ""
         },
         {
             "source": "/(.*)",
