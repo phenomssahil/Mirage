@@ -8,12 +8,7 @@ import imageRouter from './routes/imageRoutes.js'
 const PORT = process.env.PORT || 4000
 const app = express()
 app.use(express.json())
-app.use(cors({
-    origin: `${process.env.CLIENT_URL}`,
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type'],
-    credentials: true
-}))
+app.use(cors({}))
 
 await connectDB()
 app.use('/api/user', userRouter)
